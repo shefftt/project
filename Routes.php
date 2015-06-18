@@ -1,3 +1,6 @@
+<?php
+
+
 /*
 هذا المسارات يقوم الملف باختبار الرابط مثلا 
 example.com/help
@@ -17,3 +20,7 @@ Route::get('/{page}' ,function($page)
      return View::make('footer.main_f')->with('page' , $page);
  
 });
+
+
+
+?>
